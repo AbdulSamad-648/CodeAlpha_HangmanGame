@@ -1,0 +1,78 @@
+# Word List for Hangman Game
+
+## Predefined Words (5 words)
+
+1. **PYTHON** (6 letters)
+   - Description: Popular programming language
+   - Difficulty: Easy-Medium
+
+2. **HANGMAN** (7 letters)
+   - Description: The name of this game
+   - Difficulty: Medium
+
+3. **COMPUTER** (8 letters)
+   - Description: Electronic computing device
+   - Difficulty: Medium-Hard
+
+4. **PROGRAMMING** (11 letters)
+   - Description: Writing computer code
+   - Difficulty: Hard
+
+5. **INTERNSHIP** (10 letters)
+   - Description: Temporary work experience program
+   - Difficulty: Hard
+
+## Statistics
+
+- Total Words: 5
+- Average Length: 8.4 letters
+- Shortest: PYTHON (6 letters)
+- Longest: PROGRAMMING (11 letters)
+
+## Theme
+
+All words are related to:
+- Computer Science & Programming
+- Technology
+- Education & Career Development
+- Internship context (CodeAlpha)
+
+## Implementation
+
+Words are stored in Python as a list:
+
+```python
+WORD_LIST = ['python', 'hangman', 'computer', 'programming', 'internship']
+```
+
+The game randomly selects one word using:
+```python
+word = random.choice(WORD_LIST).upper()
+```
+
+## Adding More Words
+
+To expand the word list, modify the `WORD_LIST` variable in `hangman_game.py`:
+
+```python
+WORD_LIST = [
+    'python',
+    'hangman',
+    'computer',
+    'programming',
+    'internship',
+    # Add more words here
+    'algorithm',
+    'database',
+    'network',
+    # etc.
+]
+```
+
+## Notes
+
+- All words are in lowercase in the list but converted to uppercase for display
+- Words contain only alphabetic characters (A-Z)
+- No special characters or numbers
+- All words are common and recognizable
+- Words range from easy to challenging difficulty levels
